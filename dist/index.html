@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <h1>TodoList</h1>
+
+  <form action="/add" id="addForm" method="POST">
+    <input required type="text" placeholder="Add a new todo here..." name="text" />
+    <button type="submit" class="center"> ➕ </button>
+  </form>
+
+  <div class="todos">
+
+  </div>
+
+</body>
+</html>
